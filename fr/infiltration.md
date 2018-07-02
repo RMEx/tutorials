@@ -23,12 +23,15 @@ Tout d'abord, on va voler sa map à Aurélien et placer notre garde et notre jou
 On va dénombrer trois cas pratiques dans notre système. J'ai affiché le champ de vision théorique du garde (sans prendre en compte les obstacles) en rouge.
 
 1 Le joueur ne se trouve pas dans le champ de vision du garde : non détecté
+
 ![Pas dans le champ de vision](https://imgur.com/2r1WUTt.png "Situation 1")
 
 2 Le joueur se trouve dans le champ de vision du garde mais un mur bloque sa vision : non détecté
+
 ![Pas visible](https://imgur.com/TnB3YQZ.png "Situation 2")
 
 3 Le joueur se trouve dans le champ de vision du garde et aucun obstacle ne bloque sa vision : détecté
+
 ![Visible](https://imgur.com/I5DY0lc.png "Situation 3")
 
 L'évènement va donc se décomposer de la manière suivante :
